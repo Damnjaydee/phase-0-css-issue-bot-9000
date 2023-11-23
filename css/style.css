@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background: pink; /* Use colon to assign values to properties */
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Correct property name to 'font-size' */
 }
 
 h2 {
   color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal;
+  font-style: italic; /* Add a semicolon to separate style declarations */
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* Correct property name to 'font-size' */
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
